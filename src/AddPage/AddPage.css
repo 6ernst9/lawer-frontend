@@ -1,0 +1,79 @@
+*,*::before, *::after{
+    box-sizing: border-box;
+    font-family: 'Centra', sans-serif !important;
+}
+@font-face {
+	font-family: Centra;
+	src: url('../font/CentraNo2-Bold.ttf');
+	font-weight: 700;
+}
+@font-face {
+	font-family: Centra;
+	src: url('../font/CentraNo2-Medium.ttf');
+	font-weight: 500;
+}
+@font-face {
+	font-family: Centra;
+	src: url('../font/CentraNo2-Book.ttf');
+	font-weight: 400;
+}
+
+.add-wrapper{   
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.add-container{
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    background-color: white;
+   
+    border-radius: 15px;
+    margin: 0 auto;
+}
+.add-header {
+    display: flex;
+    align-items: center;   
+    flex-direction: row; 
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+ }
+.add-form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+    gap: 20px;
+}
+ .add-form input{
+    border: 1px solid #ccc;
+    padding: 10px;  
+    width: 100%;
+    border-radius: 5px;
+ }
+ .add-form input:focus{
+    outline: none;
+    border: 2px solid  #0077ff;
+ }
+
+ .add-container button{
+    margin-top: 20px;
+    width: 100%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+ }
+ .error-msg{
+    display: none;
+ }
+ .error-msg-visible{
+    font-weight: 500;
+ }

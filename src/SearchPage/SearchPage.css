@@ -1,0 +1,112 @@
+*,*::before, *::after{
+    box-sizing: border-box;
+    font-family: 'Centra', sans-serif !important;
+}
+@font-face {
+	font-family: Centra;
+	src: url('../font/CentraNo2-Bold.ttf');
+	font-weight: 700;
+}
+@font-face {
+	font-family: Centra;
+	src: url('../font/CentraNo2-Medium.ttf');
+	font-weight: 500;
+}
+@font-face {
+	font-family: Centra;
+	src: url('../font/CentraNo2-Book.ttf');
+	font-weight: 400;
+}
+
+.search-wrapper{   
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.search-container{
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+    margin: 0 auto;
+    min-width: 700px;
+}
+.search-container h2{
+    text-align: left;
+}
+table{
+    width: 100%;
+}
+table th{
+    background-color: #ccc;
+}
+table tr:nth-child(even){
+    background-color: rgb(231, 231, 231);
+}
+table th{
+    cursor: pointer;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+table td, table th{
+    padding-top: 10px;
+    padding-bottom :10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: 10px 0; 
+ }
+ .id-cell{
+    text-align: center;
+ }
+
+ .search-header {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;   
+    gap: 10px;
+    width: 100%;
+ }
+ .search-header button{
+    padding: 10px;
+    cursor: pointer;
+ }
+.check-img{
+    width: 20px;
+    height: 20px;
+    margin-bottom: -4px;
+}
+ .right{
+    display: flex;
+    gap: 10px;
+    margin-left: auto;
+ }
+
+ .filter-range{
+    display: flex;
+    gap: 10px;
+ }
+ .filter-range input{
+    border: 1px solid #ccc;
+    padding: 10px;  
+    height: 100%;
+    border-radius: 5px;
+ }
+ .filter-range input:focus{
+    outline: none;
+    border: 2px solid  #0077ff;
+ }
+ .bottom-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+ }
+
+
